@@ -32,7 +32,7 @@ hourContainer.append(hourContainerDateText, hourTextContainer);
 minuteContainer.append(minuteContainerDateText, minuteTextContainer);
 secondContainer.append(secondContainerDateText, secondTextContainer);
 
-headingText.textContent = 'WEBSITE will be LIVE on 16th OCTOBER 2023';
+headingText.textContent = 'WEBSITE will be LIVE on 20th OCTOBER 2023';
 dayPara.textContent = 'DAYS'
 hourPara.textContent = 'HOURS'
 minutePara.textContent = 'MINUTES';
@@ -69,7 +69,7 @@ const timeData = () => {
         yearGoal = currentYear + 1, // will always take into account the fact that years pass
         now = DateTime.now(),
         //later = DateTime.local(yearGoal, 01, 01),
-        later=new Date('2023-10-16'),
+        later=new Date('2023-10-20'),
         i = Interval.fromDateTimes(now,later),
         currentHour = hoursInDay - now.hour,
         currentMinutes = minutesInHour - now.minute,
